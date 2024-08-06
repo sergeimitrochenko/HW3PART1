@@ -61,7 +61,7 @@ public class Main {
         else {
             System.out.println("В вагоне нет свободных мест");
         }
-        System.out.println("task 7");
+        System.out.println("Задача № 7");
         int one = 1;
         int two = 2;
         int three = 3;
