@@ -52,26 +52,22 @@ public class Main {
         int placeSitting = 60;
         int place = 102;
         int people = 82;
-        if (people < placeSitting){
+        if (people < placeSitting) {
             System.out.println("В вагоне имеется сидячее место");
-        }
-        else if (people > placeSitting && people < place){
+        } else if (people > placeSitting && people < place) {
             System.out.println("В вагоне имеется стоячее место");
-        }
-        else {
+        } else {
             System.out.println("В вагоне нет свободных мест");
         }
         System.out.println("Задача № 7");
         int one = 1;
         int two = 2;
         int three = 3;
-        if (one > two && one > three){
+        if (one > two && one > three) {
             System.out.println(one);
-        }
-        else if (two > one && two > three){
+        } else if (two > one && two > three) {
             System.out.println(two);
-        }
-        else{
+        } else {
             System.out.println(three);
         }
     }
